@@ -6,16 +6,13 @@
           <span class="logo-mark">S</span>
           <span class="logo-text">Soft<span>Market</span></span>
         </div>
-        <p class="footer-text">
-          Краткое описание площадки по продаже ПО. Текст-заглушка, замените на реальные данные о
-          компании или проекте.
-        </p>
+        <p class="footer-text">SoftMarket плащадка по продаже Програмного Обеспечения</p>
       </div>
       <div class="footer-right">
         <div class="footer-col">
           <div class="footer-title">Поддержка</div>
-          <a href="#">Центр помощи (заглушка)</a>
-          <a href="#">FAQ (заглушка)</a>
+          <a href="https://vk.com/4upapu">Разработчик</a>
+          <a href="https://t.me/SwagaaW">Телеграмм</a>
         </div>
         <div class="footer-col">
           <div class="footer-title">Документы</div>
@@ -25,7 +22,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© {{ new Date().getFullYear() }} SoftMarket. Все права защищены. (заглушка)</span>
+      <span>© {{ new Date().getFullYear() }} SoftMarket. Все права защищены.</span>
     </div>
   </footer>
 </template>
@@ -108,10 +105,11 @@
 }
 
 .footer-col a {
-  color: #94a3b8;
+  color: #b6ffd0a1;
   text-decoration: none;
   transition: color 0.2s ease;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .footer-col a:hover {
@@ -144,4 +142,3 @@
   }
 }
 </style>
-
