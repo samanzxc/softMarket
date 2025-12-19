@@ -1,0 +1,233 @@
+export const allProducts = [
+  {
+    id: 1,
+    name: 'LicenseManager PRO',
+    subtitle: 'Управление лицензиями и активациями',
+    tag: 'Популярный',
+    price: 69,
+    oldPrice: 89,
+    rating: 4.8,
+    reviews: 124,
+    downloads: 2500,
+    platform: ['Windows', 'Linux'],
+    category: 'Автоматизация',
+    licenseType: 'Подписка',
+    image: 'https://www.novelsemperor.com/images/auth.webp',
+    badge: 'ПО • Заглушка',
+    description:
+      'Комплексное управление лицензиями, выдача ключей, контроль активностей и интеграции с биллингом. Текст-заглушка.',
+    docUrl: '#',
+    downloadUrl: '#',
+    features: [
+      'Управление лицензиями и ключами',
+      'Контроль активаций',
+      'Интеграции с биллингом',
+      'Отчёты и аналитика'
+    ]
+  },
+  {
+    id: 2,
+    name: 'Analytics Suite X',
+    subtitle: 'Расширенная аналитика и отчётность',
+    tag: 'Новинка',
+    price: 129,
+    oldPrice: 149,
+    rating: 4.9,
+    reviews: 98,
+    downloads: 1100,
+    platform: ['Windows'],
+    category: 'Аналитика',
+    licenseType: 'Подписка',
+    image: 'https://www.novelsemperor.com/images/auth.webp',
+    badge: 'ПО • Заглушка',
+    description:
+      'Глубокая аналитика, визуализации, построение кастомных отчётов и совместная работа. Текст-заглушка.',
+    docUrl: '#',
+    downloadUrl: '#',
+    features: [
+      'Глубокая аналитика данных',
+      'Визуализации и графики',
+      'Кастомные отчёты',
+      'Совместная работа'
+    ]
+  },
+  {
+    id: 3,
+    name: 'Automation Core',
+    subtitle: 'Автоматизация бизнес-процессов',
+    tag: 'Топ продаж',
+    price: 199,
+    oldPrice: 229,
+    rating: 4.7,
+    reviews: 210,
+    downloads: 3800,
+    platform: ['Windows', 'macOS'],
+    category: 'Автоматизация',
+    licenseType: 'Пожизненная',
+    image: 'https://www.novelsemperor.com/images/auth.webp',
+    badge: 'ПО • Заглушка',
+    description: 'Автоматизация процессов, сценарии, интеграции и оркестрация. Текст-заглушка.',
+    docUrl: '#',
+    downloadUrl: '#',
+    features: [
+      'Автоматизация процессов',
+      'Создание сценариев',
+      'Интеграции с системами',
+      'Оркестрация задач'
+    ]
+  },
+  {
+    id: 4,
+    name: 'SupportDesk Cloud',
+    subtitle: 'Система тикетов и поддержки',
+    tag: 'Хит',
+    price: 49,
+    oldPrice: 59,
+    rating: 4.6,
+    reviews: 76,
+    downloads: 900,
+    platform: ['Web'],
+    category: 'Поддержка / Helpdesk',
+    licenseType: 'Подписка',
+    image: 'https://www.novelsemperor.com/images/auth.webp',
+    badge: 'ПО • Заглушка',
+    description: 'Обработка обращений, SLA, база знаний и отчётность поддержки. Текст-заглушка.',
+    docUrl: '#',
+    downloadUrl: '#',
+    features: [
+      'Система тикетов',
+      'Управление SLA',
+      'База знаний',
+      'Отчётность поддержки'
+    ]
+  },
+  {
+    id: 5,
+    name: 'DevOps Toolkit',
+    subtitle: 'Инструменты для DevOps команд',
+    tag: 'Новинка',
+    price: 159,
+    oldPrice: 179,
+    rating: 4.9,
+    reviews: 145,
+    downloads: 2100,
+    platform: ['Linux', 'macOS'],
+    category: 'DevOps и инструменты',
+    licenseType: 'On-Premise',
+    image: 'https://www.novelsemperor.com/images/auth.webp',
+    badge: 'ПО • Заглушка',
+    description: 'Пайплайны, мониторинг и IaC для DevOps-команд. Текст-заглушка.',
+    docUrl: '#',
+    downloadUrl: '#',
+    features: [
+      'CI/CD пайплайны',
+      'Мониторинг инфраструктуры',
+      'Infrastructure as Code',
+      'Автоматизация развёртывания'
+    ]
+  },
+  {
+    id: 6,
+    name: 'Data Analyzer Pro',
+    subtitle: 'Профессиональный анализ данных',
+    tag: 'Популярный',
+    price: 99,
+    oldPrice: 119,
+    rating: 4.8,
+    reviews: 167,
+    downloads: 3200,
+    platform: ['Windows', 'Linux', 'macOS'],
+    category: 'Аналитика',
+    licenseType: 'Подписка',
+    image: 'https://www.novelsemperor.com/images/auth.webp',
+    badge: 'ПО • Заглушка',
+    description: 'Профессиональный анализ данных, машинное обучение и визуализация. Текст-заглушка.',
+    docUrl: '#',
+    downloadUrl: '#',
+    features: [
+      'Профессиональный анализ данных',
+      'Машинное обучение',
+      'Визуализация результатов',
+      'Экспорт отчётов'
+    ]
+  },
+  {
+    id: 7,
+    name: 'Data Analyzer Pro',
+    subtitle: 'Профессиональный анализ данных',
+    tag: 'Популярный',
+    price: 199,
+    oldPrice: 219,
+    rating: 4.4,
+    reviews: 15,
+    downloads: 275,
+    platform: ['Windows', 'macOS'],
+    category: 'Аналитика',
+    licenseType: 'Подписка',
+    image: 'https://www.novelsemperor.com/images/auth.webp',
+    badge: 'ПО • Заглушка',
+    description: 'Профессиональный анализ данных, машинное обучение и визуализация. Текст-заглушка.',
+    docUrl: '#',
+    downloadUrl: '#',
+    features: [
+      'Профессиональный анализ данных',
+      'Машинное обучение',
+      'Экспорт отчётов'
+    ]
+  },
+    {
+    id: 8,
+    name: 'Automation Core',
+    subtitle: 'Автоматизация бизнес-процессов',
+    tag: 'Топ продаж',
+    price: 199,
+    oldPrice: 229,
+    rating: 4.7,
+    reviews: 210,
+    downloads: 3800,
+    platform: ['Windows', 'macOS'],
+    category: 'Автоматизация',
+    licenseType: 'Пожизненная',
+    image: 'https://www.novelsemperor.com/images/auth.webp',
+    badge: 'ПО • Заглушка',
+    description: 'Автоматизация процессов, сценарии, интеграции и оркестрация. Текст-заглушка.',
+    docUrl: '#',
+    downloadUrl: '#',
+    features: [
+      'Автоматизация процессов',
+      'Создание сценариев',
+      'Интеграции с системами',
+      'Оркестрация задач'
+    ]
+  },
+    {
+    id: 9,
+    name: 'Automation Core',
+    subtitle: 'Автоматизация бизнес-процессов',
+    tag: 'Топ продаж',
+    price: 599,
+    oldPrice: 229,
+    rating: 4.7,
+    reviews: 210,
+    downloads: 3800,
+    platform: ['Windows', 'macOS'],
+    category: 'Автоматизация',
+    licenseType: 'Пожизненная',
+    image: 'https://www.novelsemperor.com/images/auth.webp',
+    badge: 'ПО • Заглушка',
+    description: 'Автоматизация процессов, сценарии, интеграции и оркестрация. Текст-заглушка.',
+    docUrl: '#',
+    downloadUrl: '#',
+    features: [
+      'Автоматизация процессов',
+      'Создание сценариев',
+      'Интеграции с системами',
+      'Оркестрация задач'
+    ]
+  },
+]
+
+export const getProductById = (id) => {
+  return allProducts.find((p) => p.id === Number(id)) || null
+}
+
