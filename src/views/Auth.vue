@@ -124,10 +124,7 @@ onMounted(async () => {
       <!-- Заголовок -->
       <div class="auth-header">
         <div class="telegram-logo">
-          <svg width="40" height="40" viewBox="0 0 240 240" fill="none">
-            <circle cx="120" cy="120" r="120" fill="#0088CC"/>
-            <path d="M100.5 140.9L98.3 155.8C98.3 155.8 97.8 160.2 102.2 160.2C106.6 160.2 108.9 156.3 108.9 156.3L115.3 148.4L130.4 159.6C130.4 159.6 136.6 163.5 139.2 156.3L155.8 102.2C155.8 102.2 157.1 96.5 150.4 94.7C143.7 92.9 140.9 98.3 140.9 98.3L108.9 134.2L93.3 122.5C93.3 122.5 89.4 119.7 85.5 122.5C81.6 125.3 82.1 130.2 82.1 130.2L100.5 140.9Z" fill="white"/>
-          </svg>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1024px-Telegram_2019_Logo.svg.png" alt="">
         </div>
         <h2 class="auth-title">Вход через Telegram</h2>
         <p class="auth-subtitle">
@@ -205,6 +202,10 @@ onMounted(async () => {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(20px);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-back {
@@ -237,10 +238,11 @@ onMounted(async () => {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  width: 60px;
 }
 
-.telegram-logo svg {
-  filter: drop-shadow(0 4px 12px rgba(0, 136, 204, 0.4));
+.telegram-logo img{
+  filter: drop-shadow(0 4px 12px rgba(0, 136, 204, 0.795));
 }
 
 .auth-title {
@@ -264,6 +266,7 @@ onMounted(async () => {
 .telegram-widget-container {
   margin: 32px 0;
   min-height: 60px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
